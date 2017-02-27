@@ -1,0 +1,26 @@
+.main-title {
+  background-image: url("/img/background.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+.navbar-menu {
+  margin: 0;
+}
+
+.right-content {
+  margin-left: 0;
+}
+.main-header {
+  background:   none;
+}
+.button-style {
+  color: green;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid #3eaf3e;
+  font-weight: 700;
+}
+a {
+  color:inherit;
+}
