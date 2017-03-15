@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-  <title>{{ config('app.name', 'Laravel') }}</title>
+  <title>Best title ever</title>
 
   <!-- Styles -->
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -31,7 +31,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-                <a class="navbar-brand" href="{{ url('/') }}">{{ config('app.name', 'Pradinis') }}</a>
+                <a class="navbar-brand" href="{{ url('/') }}">Pradinis}}</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
