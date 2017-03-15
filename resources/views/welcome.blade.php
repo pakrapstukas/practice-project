@@ -17,14 +17,8 @@
           'csrfToken' => csrf_token(),
       ]) !!};
   </script>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <!-- Latest compiled and minified JavaScript -->
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/master.css">
 </head>
 <body>
     <nav class="navbar navbar-default navbar-menu">
@@ -60,7 +54,7 @@
                 <div class="panel-heading text-center">
                     <h4>Valdymo punktas</h4></div>
                 <div class="panel-body">
-                    <form class="form-horizontal">
+                    <div class="form-horizontal">
                         <div class="form-group">
                           @if (Auth::guest())
                             <div class="col-xs-12">
@@ -82,7 +76,7 @@
                                     </form>
                     @endif
                         </div>
-                    </form>
+                    </div>
                 </div>
             </div>
             <div class="panel pandel-default">
